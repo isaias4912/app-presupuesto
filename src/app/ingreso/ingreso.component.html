@@ -1,0 +1,14 @@
+<h2 class="text-center text-primary">Ingresos</h2>
+<ul class="list-group mt-3">
+  @for (ingreso of ingresos; track ingreso) {
+    <li class="list-group-item d-flex justify-content-between align-items-center">
+      <span class="flex-grow-1">{{ingreso.descripcion}}</span>
+      <span class="text-success mx-3">{{ingreso.valor|currency:'ARS':'$':'1.2-2'}}</span>
+      <button class="btn btn-sm btn-danger" (click)="eliminarIngreso(ingreso)">
+        <i class="bi bi-x-circle"></i> <!-- Bootstrap Icon -->
+      </button>
+    </li>
+  }
+
+ 
+</ul>
