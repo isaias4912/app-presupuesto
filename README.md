@@ -1,3 +1,11 @@
+Hola !! Esta aplicación web demuestra el potencial de Angular 18 para crear experiencias de usuario modernas y dinámicas.
+ He aprovechado al máximo las nuevas características de Angular 18, incluyendo:
+Inyección de dependencias para un código limpio y modular.
+Pipes personalizados y predefinidos para transformar y formatear datos de manera sencilla.
+Flujo de actualización optimizado para mantener los datos sincronizados en tiempo real.
+Directivas estructurales (*ngIf, *ngFor) para un manejo dinámico del DOM.
+Property binding y two-way binding para una interacción fluida con la interfaz de usuario.
+
 # AppPresupuesto
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.12.
